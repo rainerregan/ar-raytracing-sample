@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		8D6846FB27FDDE0C00F00AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6846FA27FDDE0C00F00AFC /* AppDelegate.swift */; };
 		8D6846FD27FDDE0C00F00AFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6846FC27FDDE0C00F00AFC /* ContentView.swift */; };
-		8D6846FF27FDDE0C00F00AFC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 8D6846FE27FDDE0C00F00AFC /* Experience.rcproject */; };
 		8D68470127FDDE0D00F00AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D68470027FDDE0D00F00AFC /* Assets.xcassets */; };
 		8D68470427FDDE0D00F00AFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D68470327FDDE0D00F00AFC /* Preview Assets.xcassets */; };
+		8D68472927FF426A00F00AFC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D68472827FF426A00F00AFC /* Coordinator.swift */; };
+		8D68472B27FF459100F00AFC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D68472A27FF459100F00AFC /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D6846F727FDDE0C00F00AFC /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6846FA27FDDE0C00F00AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6846FC27FDDE0C00F00AFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8D6846FE27FDDE0C00F00AFC /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		8D68470027FDDE0D00F00AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D68470327FDDE0D00F00AFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D68472827FF426A00F00AFC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8D68472A27FF459100F00AFC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				8D6846FA27FDDE0C00F00AFC /* AppDelegate.swift */,
 				8D6846FC27FDDE0C00F00AFC /* ContentView.swift */,
-				8D6846FE27FDDE0C00F00AFC /* Experience.rcproject */,
 				8D68470027FDDE0D00F00AFC /* Assets.xcassets */,
 				8D68470227FDDE0D00F00AFC /* Preview Content */,
+				8D68472827FF426A00F00AFC /* Coordinator.swift */,
+				8D68472A27FF459100F00AFC /* UIColor+Extensions.swift */,
 			);
 			path = HelloAR;
 			sourceTree = "<group>";
@@ -142,7 +145,8 @@
 			files = (
 				8D6846FD27FDDE0C00F00AFC /* ContentView.swift in Sources */,
 				8D6846FB27FDDE0C00F00AFC /* AppDelegate.swift in Sources */,
-				8D6846FF27FDDE0C00F00AFC /* Experience.rcproject in Sources */,
+				8D68472927FF426A00F00AFC /* Coordinator.swift in Sources */,
+				8D68472B27FF459100F00AFC /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -253,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 8B7DH7AN2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -286,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exacode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 8B7DH7AN2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -317,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exacode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
